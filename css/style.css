@@ -42,6 +42,17 @@
     background-color:rgb(1, 92, 1);
   
 }
+.cuore{
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    color:black;
+    font-size: 25px;
+    
+}
+
+
+}
 .percentuale, .verde{
     position: absolute;
     bottom: 8px;
