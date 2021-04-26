@@ -151,3 +151,25 @@
 .sesta-foto:hover{
     background-image: url(../img/6b.webp);
 }
+.bonus{
+    height: 250px;
+    background-color:rgb(115, 209, 221);
+}
+.piede-pagina{
+    font-size: 50px;
+   margin-left: 200px;
+   margin-top: 50px;
+}
+.iscrizione{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.password{
+    font-size: 50px;
+    margin-left: 50px;
+    }
+    .sign{
+        font-size: 50px;
+        margin-left: 550px;
+    }
