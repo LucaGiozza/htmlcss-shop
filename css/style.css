@@ -4,18 +4,78 @@
 }
 .contenitore{
     width: 1000px;
-    height: 900px;
-    background-color: red;
+    height: 1200px;
+    
     margin: auto;
     margin-top: 100px;
+    position: relative;
 }
-.foto{
-    width: 23%;
-    height: 45%;
+.prima-foto{
+    width: 30%;
+    height: 35%;
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+   
 }
-.descrizione{
-    display: block;
+.seconda-foto{
+    position: absolute;
+    top:0px;
+    left:320px;
+    width: 30%;
+    height: 35%;
+    background-image: url(../img/2.webp);
+    background-position: center;
+    background-size: cover;
 }
-.prezzo{
-    margin-top: 8px;
+.scritta{
+    position: absolute;
+    bottom: -21px;
+}
+.scritta-sotto{
+    position: absolute;
+    bottom: -37px;
+}
+
+
+.terza-foto{
+    position: absolute;
+    top:0px;
+    left:640px;
+    width: 30%;
+    height: 35%;
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.quarta-foto{
+    position: absolute;
+    top: 550px;
+   
+    width: 30%;
+    height: 35%;
+    background-image: url(../img/4.webp);
+    background-position: center;
+    background-size: cover;  
+}
+.quinta-foto{
+    position: absolute;
+    top:550px;
+    left:320px;
+    width: 30%;
+    height: 35%;
+    background-image: url(../img/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sesta-foto{
+    position: absolute;
+    top:550px;
+    left:640px;
+    width: 30%;
+    height: 35%;
+    background-image: url(../img/6.webp);
+    background-position: center;
+    background-size: cover; 
 }
