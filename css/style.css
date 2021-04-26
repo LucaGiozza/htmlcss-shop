@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .contenitore{
     width: 1000px;
@@ -14,18 +15,22 @@
     width: 30%;
     height: 35%;
     background-image: url(../img/1.webp);
+   
     background-position: center;
     background-size: cover;
     position: relative;
 
    
 }
+.prima-foto:hover{
+    background-image: url(../img/1b.webp);  
+}
 .percentuale{
     position: absolute;
     bottom: 8px;
     background-color: red;
     color: white;
-    font-size: 13px;
+    font-size: 14px;
    
 
 }
@@ -33,7 +38,7 @@
     position: absolute;
     margin-left: 5px;
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     background-color:rgb(1, 92, 1);
   
 }
@@ -55,13 +60,17 @@
     background-position: center;
     background-size: cover;
 }
+.seconda-foto:hover{
+    background-image: url(../img/2b.webp);
+
+}
 .scritta{
     position: absolute;
-    bottom: -21px;
+    bottom: -25px;
 }
 .scritta-sotto{
     position: absolute;
-    bottom: -37px;
+    bottom: -42px;
 }
 .prezzo-foto{
     position: absolute;
@@ -81,6 +90,7 @@
     background-size: cover;
 
 }
+
 .green{
     
     width:100% ;
@@ -99,6 +109,10 @@
     background-position: center;
     background-size: cover;  
 }
+.quarta-foto:hover{
+    background-image: url(../img/4b.webp);
+
+}
 .quinta-foto{
     position: absolute;
     top:550px;
@@ -109,6 +123,10 @@
     background-position: center;
     background-size: cover;
 }
+.quinta-foto:hover{
+    background-image: url(../img/5b.webp);
+
+}
 .sesta-foto{
     position: absolute;
     top:550px;
@@ -118,4 +136,7 @@
     background-image: url(../img/6.webp);
     background-position: center;
     background-size: cover; 
+}
+.sesta-foto:hover{
+    background-image: url(../img/6b.webp);
 }
