@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenitore{
+    width: 1000px;
+    height: 900px;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+}
+.foto{
+    width: 23%;
+    height: 45%;
+}
+.descrizione{
+    display: block;
+}
+.prezzo{
+    margin-top: 8px;
+}
